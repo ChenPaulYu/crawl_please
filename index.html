@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <title>Crawl Please</title>
+</head>
+<body>
+    <h1>Header</h1>
+    <h1 class='head'>This is h1</h1>
+    <h2 class='head'>This is h2</h2>
+    <h3 class='head'>This is h3</h3>
+    <h4 class='head'>This is h4</h4>
+    <h5 class='head' id='five'>This is h5</h5>
+    <h6 class='head' id='six'>This is h6</h6>
+
+    <div id='section paragraph'>
+        <h1>Paragraph</h1>
+        <p class='big important'>First Paragraph</p>
+        <p class='big'>Seocnd Paragraph</p>
+        <p class='small'>Third Paragraph</p>
+        <p class='small ignore'>Forth Paragraph</p>
+        <div class='inside_paragraph'>
+            <p id='inside'>Inside Paragraph</p>
+        </div>
+    </div>
+
+    <div class='section image'>
+        <img class='animal' src='./image/cat.jpg' alt='cat'>
+        <img class='animal' src='./image/dog.jpg' alt='dog'>
+        <img class='thing'  src='./image/basketball.png' alt='basketball'>
+    </div>
+
+
+    <div class='section links'>
+        <h1>Links</h1>
+        <div class='block' name='google'>
+            <p class='title'>Google</p>
+            <a class='url' href='https://www.google.com/'>Link</a>
+        </div>
+        <div class='block' name='google_image'>
+            <p class='title'>Google Image</p>
+            <a class='url' href='https://www.google.com.tw/imghp'>Link</a>
+        </div>
+        <div class='block' name='translate_google'>
+            <p class='title'>Google Translate</p>
+            <a class='url' href='hhttps://translate.google.com.tw/'>Link</a>
+        </div>
+        <div class='block' name='facebook'>
+            <p class='title'>Facebook</p>
+            <a class='url' href='https://www.google.com/'>Link</a>
+        </div>
+        <div class='block' name='instagram'>
+            <p class='title'>Instagram</p>
+            <a class='url' href='https://www.instagram.com/'>Link</a>
+        </div>
+    </div>
+
+    <div class='section dynamic'>
+        <h1>Dynamic</h1>
+        <div class='buttons'>
+            <button id='yes' data-test-id='yes'>Yes</button>
+            <button id='no'  data-test-id='no'>No</button>
+        </div>
+
+        <div class='inputs'>
+            <label for="emal">Email:</label>
+            <input type='email' id='emal' name='email'>
+            <label for="password">Password:</label>
+            <input type="text"  id='password' name='password'>
+            <input type='submit' value='Submit' id='submit'>
+        </div>
+    </div>
+
+    
+</body>
+</html>

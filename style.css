@@ -1,0 +1,47 @@
+.head {
+    color: blue;
+}
+
+#five, #six {
+    color: red;
+}
+
+.big {
+    font-size: 32;
+}
+
+.small {
+    font-size: 16;
+}
+
+#paragraph {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.important{
+    font-weight: bold;
+}
+
+.ignore {
+    opacity: 0.5;
+}
+
+#inside {
+    color: green;
+    opacity: 0.6;
+}
+
+.block {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.inputs, .buttons {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
